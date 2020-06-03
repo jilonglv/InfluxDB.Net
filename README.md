@@ -6,15 +6,6 @@ with no external dependencies. It is the new home for all of your metrics, event
 
 A Portable .NET library to access the REST API of a [InfluxDB](http://influxdb.com/) database.
 
-**Installation**  
-```sh
-Install-Package InfluxDB.Net-Main
-```
-
-**.NET Core Installation**
-```sh
-dotnet add package InfluxDB.Net.Core --version 1.1.22-beta
-```
 
 **Versions of InfluxDB**  
 The currently supported versions of InfluxDB is 0.9 - 1.1. When creating a connection to the database you can specify the version to use, or the *auto* configuration that starts by determening the version.
